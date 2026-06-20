@@ -10,6 +10,18 @@
 
 ---
 
+Repositorio GitHub
+
+Repositorio utilizado para almacenar este Workshop03 y futuros workshops del curso:
+
+https://github.com/nachoar24/Workshops---Software-Libre
+
+Ruta del Workshop03 dentro del repositorio:
+
+Workshop03/
+
+---
+
 ## 1. Introducción
 
 En este taller se configuró un entorno de desarrollo web utilizando una máquina virtual **Debian 12**, administrada mediante **Vagrant** y **VirtualBox**, desde una máquina anfitriona con sistema operativo Windows.
@@ -702,16 +714,27 @@ En este proyecto no se incluye `package-lock.json`, ya que no fue necesario ejec
 
 ## 19. Repositorio Git
 
-El trabajo se mantiene dentro del repositorio Git de los talleres del curso. El objetivo de incluirlo en GitHub es conservar el historial del trabajo realizado y permitir la revisión del entregable.
+El trabajo se mantiene dentro del repositorio Git de los talleres del curso.
 
-Para registrar los cambios del Workshop 03 se pueden utilizar los siguientes comandos:
+**Repositorio GitHub:**
+https://github.com/nachoar24/Workshops---Software-Libre
+
+**Ruta del taller dentro del repositorio:**
+
+```text
+Workshop03/
+```
+
+Para registrar y subir los cambios del Workshop 03 se utilizaron los siguientes comandos:
 
 ```bash
 git status
 git add Workshop03
 git commit -m "Agregar Workshop03 Laravel"
-git push
+git push origin main
 ```
+
+Esto permite evidenciar que el trabajo realizado fue versionado y almacenado en GitHub.
 
 ---
 
